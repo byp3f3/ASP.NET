@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]  Bookworm</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Nekrasova.styles.css" asp-append-version="true" />
+    <link rel="icon" href="/media/books.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/media/books.png" type="image/x-icon">
+
+</head>
+<body style="height:contain;">
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Bookworm <img src="~/media/books.png" height="20" width="20"/></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Catalog">Каталог</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Profile">Профиль</a>
+                        </li>
+                    </ul>
+                    <a class="navbar-brand" style="display:flex; justify-content:center;">Любить. Мечтать. Читать книги. </a>
+					<a justify-content-end class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Favorite">
+                        <img src="~/media/heart.png" height="20" width="20" />
+                    </a>
+					<a justify-content-end class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Cart">
+                        <img src="~/media/shopping-basket.png" height="20" width="20" />
+                    </a>
+                    <a justify-content-end class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Orders">
+                        <img src="~/media/orders.png" height="20" width="20" />
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3" style="margin-bottom:300px; flex-wrap:wrap; height:contain;">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            <div class="navbar-collapse collapse" style="display:flex; margin-left: -100px;">
+                <div style="display:table-group-column; margin-right:50px">
+                    <h3 class="nav-link text-dark text-muted" style="margin-top: 20px; margin-bottom:0px">О компании</h3>
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">О "Bookworm"</a>
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Catalog">Адреса магазинов</a>
+              </div>
+                <div style="display:table-group-column;">
+                    <h3 class="nav-link text-dark text-muted" style="margin-top: 20px; margin-bottom:0px">Интернет-магазин</h3>
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Catalog">Каталог</a>
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Cart">Корзина</a>
+                </div>
+                <div style="display:table-group-column;">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index" style="font-size:165px; display:flex; margin-top:50px;">
+                        Bookworm <img src="~/media/books.png" height="130" width="150" style="margin-top:-30px;" /></a>
+                    <a  style="display:flex; justify-content:center; font-size:30px;">Любить. Мечтать. Читать книги. </a>
+                </div>
+			</div> 
+            <a style="display:flex; margin-left:-100px;" class="nav-link text-dark">&copy; 2024 - Bookworm</a>
+        </div>
+       
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,302 @@
+﻿@*  @model IEnumerable<Book> *@
+@model Nekrasova.Models.BookInfo
+<div style="display:flex; justify-content:space-evenly; flex-wrap:wrap;">
+    @foreach (var item in Model.books.ToList<Book>())
+    {
+    <div class="card" style="width:220px; margin:15px;">
+        <img src="@Url.Content(item.CoverPath)" class="card-img-top" style="height:350px" alt="@item.BookName">
+        <div class="card-body">
+            <h6 class="card-title" style="height:40px;">
+                    @if (item.BookName.Length > 45)
+                    {
+                        @item.BookName.Substring(0,45);
+
+                    }
+                    else
+                    {
+                        @item.BookName;
+                    }
+            </h6>
+                @{
+                    foreach(var bookAu in Model.bookAuthor.ToList())
+                    {
+                        if (bookAu.Book_ID == item.ID)
+                        {
+
+                        foreach(var author in Model.author.ToList())
+                            {
+                                if (bookAu.Author_ID == author.ID)
+                                {
+                                    <p>@author.Name @author.Patronymic @author.Surname</p>
+                                }
+                                        
+                    }
+                }
+                }
+            }
+            <div style="display:flex;height:42px; flex-wrap:wrap; align-items:center; justify-content:space-between">
+                <p style=" font-weight:100; font-size:18px; margin-top:12px;">@item.Price₽</p>
+                <a href="#" class="btn btn-primary" style="background-color:lightsalmon; border-color:lightsalmon;">В корзину</a>
+            </div>
+            
+        </div>
+	</div>
+	}
+}
+</div>
+    @* @{int[] categoryID = []
+    @foreach(var item in Model)
+    {
+        foreach(var n in categoryID)
+        {
+            if (categoryID[n] == item.Category_ID)
+            {
+                continue;
+            }
+            else
+            {
+                <a>@item.Category_ID</a>
+                categoryID.Append(item.Category_ID);
+                continue;
+            }
+        }
+        
+    }
+        foreach(var n in categoryID)
+        {
+            string i = "a" + n;
+            <a style="display:flex; justify-content:center; font-size:30px; background-color:lightsalmon; margin-top:20px; margin-bottom:20px;">@i</a>
+            <div id="@i" class="carousel carousel-dark slide" style="font-weight:100; margin-top:50px;">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#@i" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#@i" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#@i" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#@i" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#@i" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                </div>
+
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="/media/book_pic/second_life.png" class="d-block carousel-image" style="height:400px; object-fit:cover; width:20%; margin-left:40%; margin-right:40%;">
+                        <div class="carousel-caption  d-md-block" style="background-color:lightpink; opacity:0.9; font-weight:400;">
+                            <h5>«Вторая жизнь Уве» Бакман Фредрик</h5>
+                            <p>567 ₽ <s> 800 ₽</s></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="10000">
+                        <img src="/media/book_pic/storm.png" class="d-block carousel-image" style="height:400px; object-fit:cover; width:20%; margin-left:40%; margin-right:40%;">
+                        <div class="carousel-caption d-none d-md-block" style="background-color:lightpink;font-weight:400; opacity:0.9">
+                            <h5>«Гроза. Бесприданница» Островский Александр</h5>
+                            <p>238 ₽ <s> 345 ₽</s></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="10000">
+                        <img src="/media/book_pic/simple_story.png" class="d-block carousel-image" style="height:400px; object-fit:cover; width:20%; margin-left:40%; margin-right:40%;">
+                        <div class="carousel-caption d-none d-md-block" style="font-weight:400;background-color:lightpink; opacity:0.9">
+                            <h5>«Обыкновенная история: Роман.» Гончаров Иван</h5>
+                            <p>150 ₽ <s> 299 ₽</s></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="10000">
+                        <img src="/media/book_pic/cat.png" class="d-block carousel-image" style="height:400px; object-fit:cover; width:20%; margin-left:40%; margin-right:40%;">
+                        <div class="carousel-caption d-none d-md-block" style="font-weight:400;background-color:lightpink; opacity:0.9">
+                            <h5>«Ваш покорный слуга кот» Сосэки Нацумэ</h5>
+                            <p>234 ₽ <s> 588 ₽</s></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="10000">
+                        <img src="/media/book_pic/murder_of_unicorn.png" class="d-block carousel-image" style="height:400px; object-fit:cover; width:20%; margin-left:40%; margin-right:40%;">
+                        <div class="carousel-caption d-none d-md-block" style="font-weight:400;background-color:lightpink; opacity:0.9">
+                            <h5>«Убийства единорога» Джон Диксон Карр</h5>
+                            <p>976 ₽ <s> 1244 ₽</s></p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#@i" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#@i" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        }
+    
+} *@
+<!--                                                            СКИДКИ                                        -->
+@* <a style="display:flex; justify-content:center; font-size:30px; background-color:lightpink; margin-top:20px; margin-bottom:20px;">Распродажа</a>
+<div id="a" class="carousel carousel-dark slide" style="font-weight:100; margin-top:50px;">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#a" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#a" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#a" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#a" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#a" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    </div>
+
+
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+            <img src="/media/book_pic/second_life.png" class="d-block carousel-image" style="height:400px; object-fit:cover; width:20%; margin-left:40%; margin-right:40%;">
+            <div class="carousel-caption  d-md-block" style="background-color:lightpink; opacity:0.9; font-weight:400;">
+                <h5>«Вторая жизнь Уве» Бакман Фредрик</h5>
+                <p>567 ₽ <s> 800 ₽</s></p>
+            </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+            <img src="/media/book_pic/storm.png" class="d-block carousel-image" style="height:400px; object-fit:cover; width:20%; margin-left:40%; margin-right:40%;">
+            <div class="carousel-caption d-none d-md-block" style="background-color:lightpink;font-weight:400; opacity:0.9">
+                <h5>«Гроза. Бесприданница» Островский Александр</h5>
+                <p>238 ₽ <s> 345 ₽</s></p>
+            </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+            <img src="/media/book_pic/simple_story.png" class="d-block carousel-image" style="height:400px; object-fit:cover; width:20%; margin-left:40%; margin-right:40%;">
+            <div class="carousel-caption d-none d-md-block" style="font-weight:400;background-color:lightpink; opacity:0.9">
+                <h5>«Обыкновенная история: Роман.» Гончаров Иван</h5>
+                <p>150 ₽ <s> 299 ₽</s></p>
+            </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+            <img src="/media/book_pic/cat.png" class="d-block carousel-image" style="height:400px; object-fit:cover; width:20%; margin-left:40%; margin-right:40%;">
+            <div class="carousel-caption d-none d-md-block" style="font-weight:400;background-color:lightpink; opacity:0.9">
+                <h5>«Ваш покорный слуга кот» Сосэки Нацумэ</h5>
+                <p>234 ₽ <s> 588 ₽</s></p>
+            </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+            <img src="/media/book_pic/murder_of_unicorn.png" class="d-block carousel-image" style="height:400px; object-fit:cover; width:20%; margin-left:40%; margin-right:40%;">
+            <div class="carousel-caption d-none d-md-block" style="font-weight:400;background-color:lightpink; opacity:0.9">
+                <h5>«Убийства единорога» Джон Диксон Карр</h5>
+                <p>976 ₽ <s> 1244 ₽</s></p>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#a" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#a" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div> 
+<!--                                                            КЛАССИКА                                        -->
+<a style="display:flex; justify-content:center; font-size:30px; background-color:antiquewhite;margin-top:20px; margin-bottom:20px;">Классика</a>
+<div id="carouselExampleDark" class="carousel carousel-dark slide" style="font-weight:100;">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    </div>
+
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+            <img src="/media/book_pic/wuthering_heights.png" class="d-block carousel-image" style="height:400px; object-fit:cover; width:20%; margin-left:40%; margin-right:40%;">
+            <div class="carousel-caption  d-md-block" style="font-weight:400;background-color:antiquewhite; opacity:0.9; ">
+                <h5>«Грозовой перевал» Эмили Бронте</h5>
+                <p>238 ₽</p>
+            </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+            <img src="/media/book_pic/picture_of_dorian_gray.png" class="d-block carousel-image" style="height:400px; object-fit:cover; width:20%; margin-left:40%; margin-right:40%;">
+            <div class="carousel-caption d-none d-md-block" style="font-weight:400;background-color:antiquewhite; opacity:0.9">
+                <h5>«Портрет Дориана Грея» Оскар Уайльд</h5>
+                <p>248 ₽</p>
+            </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+            <img src="/media/book_pic/to_kill_a_mockingbird.png" class="d-block carousel-image" style="height:400px; object-fit:cover; width:20%; margin-left:40%; margin-right:40%;">
+            <div class="carousel-caption d-none d-md-block" style="font-weight:400;background-color:antiquewhite; opacity:0.9">
+                <h5>«Убить пересмешника» Ли Харпер</h5>
+                <p>420 ₽</p>
+            </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+            <img src="/media/book_pic/master_and_margarita.png" class="d-block carousel-image" style="height:400px; object-fit:cover; width:20%; margin-left:40%; margin-right:40%;">
+            <div class="carousel-caption d-none d-md-block" style="font-weight:400;background-color:antiquewhite; opacity:0.9">
+                <h5>«Мастер и Маргарита: роман» Булгаков Михаил</h5>
+                <p>260 ₽</p>
+            </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+            <img src="/media/book_pic/pride_and_prejudice.png" class="d-block carousel-image" style="height:400px; object-fit:cover; width:20%; margin-left:40%; margin-right:40%;">
+            <div class="carousel-caption d-none d-md-block" style="font-weight:400;background-color:antiquewhite; opacity:0.9">
+                <h5>«Гордость и предубеждение» Остен Джейн</h5>
+                <p>260 ₽</p>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+
+<!--                                                            ДЕТИ                                        -->
+<a style="display:flex; justify-content:center; font-size:30px; background-color:powderblue; margin-top:20px; margin-bottom:20px;">Книги для детей</a>
+<div id="carouselExampleDark2" class="carousel carousel-dark slide" style="font-weight:100; margin-top:50px;">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    </div>
+
+
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+            <img src="/media/book_pic/winter_fairytales.png" class="d-block carousel-image" style="height:400px; object-fit:cover; width:20%; margin-left:40%; margin-right:40%;">
+            <div class="carousel-caption  d-md-block" style="font-weight:400;background-color:powderblue; opacity:0.9; ">
+                <h5>«Зимние сказки» Андерсен Ханс-Кристиан</h5>
+                <p>513 ₽</p>
+            </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+            <img src="/media/book_pic/walking_castle.png" class="d-block carousel-image" style="height:400px; object-fit:cover; width:20%; margin-left:40%; margin-right:40%;">
+            <div class="carousel-caption d-none d-md-block" style="font-weight:400;background-color:powderblue; opacity:0.9">
+                <h5>«Ходячий замок» Джонс Диана</h5>
+                <p>238 ₽</p>
+            </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+            <img src="/media/book_pic/little_prince.png" class="d-block carousel-image" style="height:400px; object-fit:cover; width:20%; margin-left:40%; margin-right:40%;">
+            <div class="carousel-caption d-none d-md-block" style="font-weight:400;background-color:powderblue; opacity:0.9">
+                <h5>«Маленький принц» де Сент-Экзюпери Антуан</h5>
+                <p>238 ₽</p>
+            </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+            <img src="/media/book_pic/moomintroll.png" class="d-block carousel-image" style="height:400px; object-fit:cover; width:20%; margin-left:40%; margin-right:40%;">
+            <div class="carousel-caption d-none d-md-block" style="font-weight:400;background-color:powderblue; opacity:0.9">
+                <h5>«Всё о Муми-троллях. Книга 1» Янссон Туве</h5>
+                <p>238 ₽</p>
+            </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+            <img src="/media/book_pic/alice_in_the_wonderland.png" class="d-block carousel-image" style="height:400px; object-fit:cover; width:20%; margin-left:40%; margin-right:40%;">
+            <div class="carousel-caption d-none d-md-block" style="font-weight:400;background-color:powderblue; opacity:0.9">
+                <h5>«Алиса в Стране чудес» Кэрролл Льюис</h5>
+                <p>238 ₽</p>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark2" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark2" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div> *@

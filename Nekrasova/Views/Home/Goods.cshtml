@@ -1,0 +1,50 @@
+﻿@model Nekrasova.Models.BookInfo
+@foreach (var item in Model.books.ToList<Book>())
+{
+    <div style="width:1800px; margin-left: -200px">
+        <div class="row">
+            <div class="col">
+                @item.BookName
+            </div>
+            <div class="col">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    </button>
+                    <ul class="dropdown-menu">
+                        @foreach(var item2 in Model.language.ToList<Language>())
+                        {
+							<li>@item2.LangName</li>
+                        }
+                    </ul>
+                </div>
+            </div>
+            <div class="col">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    </button>
+                    <ul class="dropdown-menu">
+                        @foreach (var item2 in Model.category.ToList<Category>())
+                        {
+                            <li>@item2.CategoryName</li>
+                        }
+                    </ul>
+                </div>
+            </div>
+            <div class="col">
+                @item.BookName
+            </div>
+            <div class="col">
+                @item.About
+            </div>
+            <div class="col">
+                @item.CoverPath
+            </div>
+            <div class="col">
+                @item.Price
+            </div>
+            <div class="col">
+                @item.Weight
+            </div>
+        </div>
+    </div>
+}

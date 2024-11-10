@@ -1,0 +1,377 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\work\\C#\\Nekrasova\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{86FE49C7-0980-4004-8E65-4053657408E7}|Nekrasova\\Nekrasova.csproj|c:\\users\\hp\\desktop\\work\\c#\\nekrasova\\nekrasova\\views\\home\\catalog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86FE49C7-0980-4004-8E65-4053657408E7}|Nekrasova\\Nekrasova.csproj|solutionrelative:nekrasova\\views\\home\\catalog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86FE49C7-0980-4004-8E65-4053657408E7}|Nekrasova\\Nekrasova.csproj|c:\\users\\hp\\desktop\\work\\c#\\nekrasova\\nekrasova\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86FE49C7-0980-4004-8E65-4053657408E7}|Nekrasova\\Nekrasova.csproj|solutionrelative:nekrasova\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86FE49C7-0980-4004-8E65-4053657408E7}|Nekrasova\\Nekrasova.csproj|c:\\users\\hp\\desktop\\work\\c#\\nekrasova\\nekrasova\\views\\home\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86FE49C7-0980-4004-8E65-4053657408E7}|Nekrasova\\Nekrasova.csproj|solutionrelative:nekrasova\\views\\home\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86FE49C7-0980-4004-8E65-4053657408E7}|Nekrasova\\Nekrasova.csproj|c:\\users\\hp\\desktop\\work\\c#\\nekrasova\\nekrasova\\views\\home\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86FE49C7-0980-4004-8E65-4053657408E7}|Nekrasova\\Nekrasova.csproj|solutionrelative:nekrasova\\views\\home\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86FE49C7-0980-4004-8E65-4053657408E7}|Nekrasova\\Nekrasova.csproj|c:\\users\\hp\\desktop\\work\\c#\\nekrasova\\nekrasova\\views\\home\\goods.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86FE49C7-0980-4004-8E65-4053657408E7}|Nekrasova\\Nekrasova.csproj|solutionrelative:nekrasova\\views\\home\\goods.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86FE49C7-0980-4004-8E65-4053657408E7}|Nekrasova\\Nekrasova.csproj|c:\\users\\hp\\desktop\\work\\c#\\nekrasova\\nekrasova\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86FE49C7-0980-4004-8E65-4053657408E7}|Nekrasova\\Nekrasova.csproj|solutionrelative:nekrasova\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86FE49C7-0980-4004-8E65-4053657408E7}|Nekrasova\\Nekrasova.csproj|c:\\users\\hp\\desktop\\work\\c#\\nekrasova\\nekrasova\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86FE49C7-0980-4004-8E65-4053657408E7}|Nekrasova\\Nekrasova.csproj|solutionrelative:nekrasova\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86FE49C7-0980-4004-8E65-4053657408E7}|Nekrasova\\Nekrasova.csproj|c:\\users\\hp\\desktop\\work\\c#\\nekrasova\\nekrasova\\models\\bookauthor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86FE49C7-0980-4004-8E65-4053657408E7}|Nekrasova\\Nekrasova.csproj|solutionrelative:nekrasova\\models\\bookauthor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86FE49C7-0980-4004-8E65-4053657408E7}|Nekrasova\\Nekrasova.csproj|c:\\users\\hp\\desktop\\work\\c#\\nekrasova\\nekrasova\\views\\home\\manager.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86FE49C7-0980-4004-8E65-4053657408E7}|Nekrasova\\Nekrasova.csproj|solutionrelative:nekrasova\\views\\home\\manager.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86FE49C7-0980-4004-8E65-4053657408E7}|Nekrasova\\Nekrasova.csproj|c:\\users\\hp\\desktop\\work\\c#\\nekrasova\\nekrasova\\views\\home\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86FE49C7-0980-4004-8E65-4053657408E7}|Nekrasova\\Nekrasova.csproj|solutionrelative:nekrasova\\views\\home\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86FE49C7-0980-4004-8E65-4053657408E7}|Nekrasova\\Nekrasova.csproj|c:\\users\\hp\\desktop\\work\\c#\\nekrasova\\nekrasova\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{86FE49C7-0980-4004-8E65-4053657408E7}|Nekrasova\\Nekrasova.csproj|solutionrelative:nekrasova\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86FE49C7-0980-4004-8E65-4053657408E7}|Nekrasova\\Nekrasova.csproj|c:\\users\\hp\\desktop\\work\\c#\\nekrasova\\nekrasova\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86FE49C7-0980-4004-8E65-4053657408E7}|Nekrasova\\Nekrasova.csproj|solutionrelative:nekrasova\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86FE49C7-0980-4004-8E65-4053657408E7}|Nekrasova\\Nekrasova.csproj|c:\\users\\hp\\desktop\\work\\c#\\nekrasova\\nekrasova\\models\\logpass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86FE49C7-0980-4004-8E65-4053657408E7}|Nekrasova\\Nekrasova.csproj|solutionrelative:nekrasova\\models\\logpass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86FE49C7-0980-4004-8E65-4053657408E7}|Nekrasova\\Nekrasova.csproj|c:\\users\\hp\\desktop\\work\\c#\\nekrasova\\nekrasova\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86FE49C7-0980-4004-8E65-4053657408E7}|Nekrasova\\Nekrasova.csproj|solutionrelative:nekrasova\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86FE49C7-0980-4004-8E65-4053657408E7}|Nekrasova\\Nekrasova.csproj|c:\\users\\hp\\desktop\\work\\c#\\nekrasova\\nekrasova\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86FE49C7-0980-4004-8E65-4053657408E7}|Nekrasova\\Nekrasova.csproj|solutionrelative:nekrasova\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86FE49C7-0980-4004-8E65-4053657408E7}|Nekrasova\\Nekrasova.csproj|c:\\users\\hp\\desktop\\work\\c#\\nekrasova\\nekrasova\\views\\home\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86FE49C7-0980-4004-8E65-4053657408E7}|Nekrasova\\Nekrasova.csproj|solutionrelative:nekrasova\\views\\home\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86FE49C7-0980-4004-8E65-4053657408E7}|Nekrasova\\Nekrasova.csproj|c:\\users\\hp\\desktop\\work\\c#\\nekrasova\\nekrasova\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86FE49C7-0980-4004-8E65-4053657408E7}|Nekrasova\\Nekrasova.csproj|solutionrelative:nekrasova\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86FE49C7-0980-4004-8E65-4053657408E7}|Nekrasova\\Nekrasova.csproj|c:\\users\\hp\\desktop\\work\\c#\\nekrasova\\nekrasova\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86FE49C7-0980-4004-8E65-4053657408E7}|Nekrasova\\Nekrasova.csproj|solutionrelative:nekrasova\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86FE49C7-0980-4004-8E65-4053657408E7}|Nekrasova\\Nekrasova.csproj|c:\\users\\hp\\desktop\\work\\c#\\nekrasova\\nekrasova\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86FE49C7-0980-4004-8E65-4053657408E7}|Nekrasova\\Nekrasova.csproj|solutionrelative:nekrasova\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86FE49C7-0980-4004-8E65-4053657408E7}|Nekrasova\\Nekrasova.csproj|c:\\users\\hp\\desktop\\work\\c#\\nekrasova\\nekrasova\\models\\regcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86FE49C7-0980-4004-8E65-4053657408E7}|Nekrasova\\Nekrasova.csproj|solutionrelative:nekrasova\\models\\regcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86FE49C7-0980-4004-8E65-4053657408E7}|Nekrasova\\Nekrasova.csproj|c:\\users\\hp\\desktop\\work\\c#\\nekrasova\\nekrasova\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86FE49C7-0980-4004-8E65-4053657408E7}|Nekrasova\\Nekrasova.csproj|solutionrelative:nekrasova\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Catalog.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\work\\C#\\Nekrasova\\Nekrasova\\Views\\Home\\Catalog.cshtml",
+              "RelativeDocumentMoniker": "Nekrasova\\Views\\Home\\Catalog.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\work\\C#\\Nekrasova\\Nekrasova\\Views\\Home\\Catalog.cshtml",
+              "RelativeToolTip": "Nekrasova\\Views\\Home\\Catalog.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-03T06:40:53.939Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Admin.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\work\\C#\\Nekrasova\\Nekrasova\\Views\\Home\\Admin.cshtml",
+              "RelativeDocumentMoniker": "Nekrasova\\Views\\Home\\Admin.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\work\\C#\\Nekrasova\\Nekrasova\\Views\\Home\\Admin.cshtml",
+              "RelativeToolTip": "Nekrasova\\Views\\Home\\Admin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T18:41:51.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\work\\C#\\Nekrasova\\Nekrasova\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Nekrasova\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\work\\C#\\Nekrasova\\Nekrasova\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Nekrasova\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAALgAAAAAAAAAAAAwwOUAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T07:48:30.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\work\\C#\\Nekrasova\\Nekrasova\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Nekrasova\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\work\\C#\\Nekrasova\\Nekrasova\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Nekrasova\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAB0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-04T09:26:03.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\work\\C#\\Nekrasova\\Nekrasova\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "Nekrasova\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\work\\C#\\Nekrasova\\Nekrasova\\Models\\Book.cs",
+              "RelativeToolTip": "Nekrasova\\Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T18:36:22.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\work\\C#\\Nekrasova\\Nekrasova\\Views\\Home\\Profile.cshtml",
+              "RelativeDocumentMoniker": "Nekrasova\\Views\\Home\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\work\\C#\\Nekrasova\\Nekrasova\\Views\\Home\\Profile.cshtml",
+              "RelativeToolTip": "Nekrasova\\Views\\Home\\Profile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-25T09:37:56.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Goods.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\work\\C#\\Nekrasova\\Nekrasova\\Views\\Home\\Goods.cshtml",
+              "RelativeDocumentMoniker": "Nekrasova\\Views\\Home\\Goods.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\work\\C#\\Nekrasova\\Nekrasova\\Views\\Home\\Goods.cshtml",
+              "RelativeToolTip": "Nekrasova\\Views\\Home\\Goods.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-25T15:16:49.731Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BookAuthor.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\work\\C#\\Nekrasova\\Nekrasova\\Models\\BookAuthor.cs",
+              "RelativeDocumentMoniker": "Nekrasova\\Models\\BookAuthor.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\work\\C#\\Nekrasova\\Nekrasova\\Models\\BookAuthor.cs",
+              "RelativeToolTip": "Nekrasova\\Models\\BookAuthor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T10:10:23.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Manager.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\work\\C#\\Nekrasova\\Nekrasova\\Views\\Home\\Manager.cshtml",
+              "RelativeDocumentMoniker": "Nekrasova\\Views\\Home\\Manager.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\work\\C#\\Nekrasova\\Nekrasova\\Views\\Home\\Manager.cshtml",
+              "RelativeToolTip": "Nekrasova\\Views\\Home\\Manager.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-25T07:31:28.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SignUp.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\work\\C#\\Nekrasova\\Nekrasova\\Views\\Home\\SignUp.cshtml",
+              "RelativeDocumentMoniker": "Nekrasova\\Views\\Home\\SignUp.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\work\\C#\\Nekrasova\\Nekrasova\\Views\\Home\\SignUp.cshtml",
+              "RelativeToolTip": "Nekrasova\\Views\\Home\\SignUp.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T10:50:05.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "bootstrap.css",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\work\\C#\\Nekrasova\\Nekrasova\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "RelativeDocumentMoniker": "Nekrasova\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\work\\C#\\Nekrasova\\Nekrasova\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "RelativeToolTip": "Nekrasova\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "ViewState": "AgIAAGgLAAAAAAAAAAAlwHgLAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-03T19:28:04.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\work\\C#\\Nekrasova\\Nekrasova\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "Nekrasova\\Models\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\work\\C#\\Nekrasova\\Nekrasova\\Models\\LoginModel.cs",
+              "RelativeToolTip": "Nekrasova\\Models\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T08:18:58.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LogPass.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\work\\C#\\Nekrasova\\Nekrasova\\Models\\LogPass.cs",
+              "RelativeDocumentMoniker": "Nekrasova\\Models\\LogPass.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\work\\C#\\Nekrasova\\Nekrasova\\Models\\LogPass.cs",
+              "RelativeToolTip": "Nekrasova\\Models\\LogPass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T09:23:08.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\work\\C#\\Nekrasova\\Nekrasova\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Nekrasova\\Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\work\\C#\\Nekrasova\\Nekrasova\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "Nekrasova\\Models\\AppDbContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA5wA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T09:27:06.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Author.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\work\\C#\\Nekrasova\\Nekrasova\\Models\\Author.cs",
+              "RelativeDocumentMoniker": "Nekrasova\\Models\\Author.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\work\\C#\\Nekrasova\\Nekrasova\\Models\\Author.cs",
+              "RelativeToolTip": "Nekrasova\\Models\\Author.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T09:08:16.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SignIn.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\work\\C#\\Nekrasova\\Nekrasova\\Views\\Home\\SignIn.cshtml",
+              "RelativeDocumentMoniker": "Nekrasova\\Views\\Home\\SignIn.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\work\\C#\\Nekrasova\\Nekrasova\\Views\\Home\\SignIn.cshtml",
+              "RelativeToolTip": "Nekrasova\\Views\\Home\\SignIn.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T10:05:16.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\work\\C#\\Nekrasova\\Nekrasova\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Nekrasova\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\work\\C#\\Nekrasova\\Nekrasova\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Nekrasova\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T10:02:45.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\work\\C#\\Nekrasova\\Nekrasova\\Models\\UserRole.cs",
+              "RelativeDocumentMoniker": "Nekrasova\\Models\\UserRole.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\work\\C#\\Nekrasova\\Nekrasova\\Models\\UserRole.cs",
+              "RelativeToolTip": "Nekrasova\\Models\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T09:35:08.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\work\\C#\\Nekrasova\\Nekrasova\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Nekrasova\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\work\\C#\\Nekrasova\\Nekrasova\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Nekrasova\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-25T07:47:03.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Regcheck.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\work\\C#\\Nekrasova\\Nekrasova\\Models\\Regcheck.cs",
+              "RelativeDocumentMoniker": "Nekrasova\\Models\\Regcheck.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\work\\C#\\Nekrasova\\Nekrasova\\Models\\Regcheck.cs",
+              "RelativeToolTip": "Nekrasova\\Models\\Regcheck.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T10:59:51.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\work\\C#\\Nekrasova\\Nekrasova\\Program.cs",
+              "RelativeDocumentMoniker": "Nekrasova\\Program.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\work\\C#\\Nekrasova\\Nekrasova\\Program.cs",
+              "RelativeToolTip": "Nekrasova\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T09:53:49.109Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

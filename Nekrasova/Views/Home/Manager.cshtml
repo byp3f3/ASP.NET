@@ -1,0 +1,14 @@
+﻿<div>
+	<div class="alert alert-success">
+		Здравствуйте, @ViewBag.Name. Ваша роль: @ViewBag.UserRole.
+	</div
+	<div style="display: inline-flex">
+		<button  class="btn btn-outline-info" style="margin-top: 20px; color:darkorange; border-color:darkorange;font-size: 30px" asp-area="" asp-controller="Home" asp-action="Goods">Редактировать книги</button>
+		<button  class="btn btn-outline-info" style="margin-top: 20px; color:darkorange; border-color:darkorange;font-size: 30px" asp-area="" asp-controller="Home" asp-action="Goods">Редактировать авторов</button>
+		<button  class="btn btn-outline-info" style="margin-top: 20px; color:darkorange; border-color:darkorange;font-size: 30px" asp-area="" asp-controller="Home" asp-action="Goods">Редактировать издательства</button>
+		<button  class="btn btn-outline-info" style="margin-top: 20px; color:darkorange; border-color:darkorange;font-size: 30px" asp-area="" asp-controller="Home" asp-action="Goods">Редактировать жанры</button>
+		<button  class="btn btn-outline-info" style="margin-top: 20px; color:darkorange; border-color:darkorange;font-size: 30px" asp-area="" asp-controller="Home" asp-action="Goods">Редактировать категории</button>
+		<button  class="btn btn-outline-info" style="margin-top: 20px; color:darkorange; border-color:darkorange;font-size: 30px" asp-area="" asp-controller="Home" asp-action="Goods">Редактировать языки</button>
+	</div>
+	<a class="btn btn-primary" style="margin-top: 20px" href="@Url.Action("Logout")">Выход</a>
+</div>
